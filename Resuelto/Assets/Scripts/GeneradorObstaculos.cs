@@ -9,7 +9,9 @@ public class GeneradorObstaculos : MonoBehaviour
     public float delay = 2, crearOstaculoCada = 2;
     
     private Vector3 posicion = new Vector3(25,0,0);
-    
+
+    public bool gameOver;
+     
     private ControladorJugador referenciaControladorJugador = null;
 
     void Start()
